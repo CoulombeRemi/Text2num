@@ -15,6 +15,20 @@ dirs = os.listdir(sFolder)
 for file in dirs:
     soundsListLen.append(file)
 listLength = len(soundsListLen)
+print(listLength)
+
+
+# 
+for k in range(listLength):
+    if k < 10:
+        soundNum = "0"+str(k)+".wav"
+    else:
+        soundNum = str(k)+".wav"
+    print(soundNum)
+
+
+
+
 
 
 
