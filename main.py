@@ -10,7 +10,7 @@ file= open("textfile.txt","r")
 sPath = "sounds/"
 sounds = []
 soundsListLen = list()
-readSpeed = random.uniform(.1,1)
+readSpeed = random.uniform(.75,1.1)
 
 # Convert letters array to num
 def let2num(letter):
