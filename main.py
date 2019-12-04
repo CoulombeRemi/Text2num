@@ -1,6 +1,7 @@
 from pyo import *
 import os
 import random
+from strings import Multi_strings
 s = Server().boot()
 s.start()
 #s.amp = .3
@@ -12,7 +13,6 @@ sPath = "sounds/"
 sounds = []
 soundsListLen = list()
 readSpeed = random.uniform(.75,1.1)
-
 
 
 # Convert letters array to num
